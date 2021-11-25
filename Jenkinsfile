@@ -3,7 +3,7 @@ agent any
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/AkshatGarg-bot/jenkins.git'
+                git 'https://github.com/vismayasolanki/jenkin.git'
             }
         }
         stage('Run Code') {
