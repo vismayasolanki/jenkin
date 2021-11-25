@@ -1,15 +1,15 @@
 import unittest
-from program import factorial
+from program import sum
 
-class Testfactorial(unittest.TestCase):
-    def test_factorial1(self):
-        result1 = factorial(9)
-        self.assertEqual(result1, 362880)
-    def test_factorial2(self):
-        result2 = factorial(0)
-        self.assertEqual(result2, 1)
-    def test_factorial3(self):
-        result3 = factorial(3)
+class Testsum(unittest.TestCase):
+    def test_sum1(self):
+        result1 = sum(1,2)
+        self.assertEqual(result1, 3)
+    def test_sum2(self):
+        result2 = sum(0,0)
+        self.assertEqual(result2,0)
+    def test_sum3(self):
+        result3 = sum(2,4)
         self.assertEqual(result3, 6)
 
 
